@@ -1,0 +1,12 @@
+{
+  "version": "logreg-sample-0.1",
+  "intercept": -1.6,
+  "features": [
+    { "name": "dti",              "label": "Debt to income ratio", "mean": 38.0,  "std": 14.0, "coef": 0.55 },
+    { "name": "credit_score",     "label": "Credit score",         "mean": 680.0, "std": 70.0, "coef": -0.85 },
+    { "name": "delinquencies",    "label": "Recent delinquencies", "mean": 0.5,   "std": 0.9,  "coef": 0.60 },
+    { "name": "loan_to_income",   "label": "Loan to income",       "mean": 0.35,  "std": 0.25, "coef": 0.35 },
+    { "name": "employment_years", "label": "Years employed",       "mean": 5.0,   "std": 4.0,  "coef": -0.30 },
+    { "name": "term_months",      "label": "Loan term",            "mean": 42.0,  "std": 14.0, "coef": 0.20 }
+  ]
+}
